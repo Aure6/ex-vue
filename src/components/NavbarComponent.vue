@@ -10,6 +10,7 @@ const isOpen = ref(false)
 <template>
     <nav class="bg-gray-800 p-4">
         <div class="container mx-auto flex items-center justify-between">
+            <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
             <router-link to="/" class="text-white text-lg font-bold">Mon Site</router-link>
             <div>
                 <!-- Mobile menu button -->
@@ -25,6 +26,8 @@ const isOpen = ref(false)
                 <ul v-if="isOpen" class="flex flex-col space-x-4 text-white md:hidden">
                     <h2>Menu mobile</h2>
                     <router-link to="/">Accueil</router-link>
+                    <router-link to="/firstex">First ex</router-link>
+                    <router-link to="/form">Formulaire</router-link>
                     <router-link to="/about">À Propos</router-link>
                     <router-link to="/services">Services</router-link>
                     <router-link to="/contact">Contact</router-link>
@@ -34,6 +37,8 @@ const isOpen = ref(false)
                 <ul v-else class="hidden md:flex space-x-4 text-white  md:visible ">
                     <h2>Menu large</h2>
                     <router-link to="/">Accueil</router-link>
+                    <router-link to="/firstex">First ex</router-link>
+                    <router-link to="/form">Formulaire</router-link>
                     <router-link to="/about">À Propos</router-link>
                     <router-link to="/services">Services</router-link>
                     <router-link to="/contact">Contact</router-link>
