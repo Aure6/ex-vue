@@ -28,9 +28,8 @@ const isOpen = ref(false)
                     <router-link to="/">Accueil</router-link>
                     <router-link to="/firstex">First ex</router-link>
                     <router-link to="/form">Formulaire</router-link>
+                    <router-link to="/autocompleteselectview">autocompleteselectview</router-link>
                     <router-link to="/about">À Propos</router-link>
-                    <router-link to="/services">Services</router-link>
-                    <router-link to="/contact">Contact</router-link>
                 </ul>
 
 
@@ -39,9 +38,8 @@ const isOpen = ref(false)
                     <router-link to="/">Accueil</router-link>
                     <router-link to="/firstex">First ex</router-link>
                     <router-link to="/form">Formulaire</router-link>
+                    <router-link to="/autocompleteselectview">autocompleteselectview</router-link>
                     <router-link to="/about">À Propos</router-link>
-                    <router-link to="/services">Services</router-link>
-                    <router-link to="/contact">Contact</router-link>
                 </ul>
             </div>
 
